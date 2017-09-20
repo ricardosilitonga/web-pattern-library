@@ -5,6 +5,121 @@
 */
 /* Normalize.css*/
 /* Sistem Grid */
+/* line 3, ../komponen/sass/pola-dasar/_grid.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Kotak Utama */
+/* line 10, ../komponen/sass/pola-dasar/_grid.scss */
+.kotak {
+  width: 95%;
+  margin: 0 auto; }
+
+/* Baris */
+/* line 16, ../komponen/sass/pola-dasar/_grid.scss */
+.baris {
+  margin-left: -1em;
+  margin-right: -1em; }
+
+/* line 21, ../komponen/sass/pola-dasar/_grid.scss */
+.baris:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Kolom */
+/* line 29, ../komponen/sass/pola-dasar/_grid.scss */
+[class^="kolom-"] {
+  float: left;
+  padding: 0 1em; }
+
+/* Lebar Kolom */
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-1 {
+  width: 8.33333%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-2 {
+  width: 16.66667%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-3 {
+  width: 25%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-4 {
+  width: 33.33333%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-5 {
+  width: 41.66667%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-6 {
+  width: 50%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-7 {
+  width: 58.33333%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-8 {
+  width: 66.66667%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-9 {
+  width: 75%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-10 {
+  width: 83.33333%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-11 {
+  width: 91.66667%; }
+
+/* line 36, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-12 {
+  width: 100%; }
+
+/* Spesial Class */
+/* line 42, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-sepertiga {
+  width: 33.33333%; }
+
+/* line 46, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-duapertiga {
+  width: 66.66667%; }
+
+/* line 50, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-setengah {
+  width: 50%; }
+
+/* line 54, ../komponen/sass/pola-dasar/_grid.scss */
+.kolom-seperempat {
+  width: 25%; }
+
+/* line 58, ../komponen/sass/pola-dasar/_grid.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* Perilaku Responsif */
+@media (max-width: 1024px) {
+  /* line 65, ../komponen/sass/pola-dasar/_grid.scss */
+  [class^="kolom-"] {
+    padding: 0 0.5em; }
+
+  /* line 69, ../komponen/sass/pola-dasar/_grid.scss */
+  .baris {
+    margin-left: -0.5em;
+    margin-right: -0.5em; } }
+@media (max-width: 768px) {
+  /* line 76, ../komponen/sass/pola-dasar/_grid.scss */
+  [class^="kolom-"] {
+    width: 100%; } }
 /* Tipografi */
 /* Tombol */
 /* Formulir */

@@ -1,0 +1,79 @@
+@import "../pengaturan/pengaturan.scss";
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Kotak Utama */
+.kotak {
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* Baris */
+.baris {
+	margin-left: -$pemisah;
+	margin-right: -$pemisah;
+}
+
+.baris:after {
+	content: "";
+
+	display: table;
+	clear: both;
+}
+
+/* Kolom */
+[class^="kolom-"] {
+	float: left;
+	padding: 0 $pemisah;
+}
+
+/* Lebar Kolom */
+@for $i from 1 through $jumlah-kolom {
+	.kolom-#{$i} {
+		width: ( 100 / $jumlah-kolom ) * $i * 1%;
+	}
+}
+
+/* Spesial Class */
+.kolom-sepertiga {
+	width: ( 100 / 3 ) * 1%;
+}
+
+.kolom-duapertiga {
+	width: ( 100 / 3 ) * 2%;
+}
+
+.kolom-setengah {
+	width: ( 100 / 2 ) * 1%;
+}
+
+.kolom-seperempat {
+	width: ( 100 / 4 ) * 1%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Perilaku Responsif */
+@media ( max-width: 1024px ) {
+	[class^="kolom-"] {
+		padding: 0 $pemisah/2;
+	}
+
+	.baris {
+		margin-left: -$pemisah/2;
+		margin-right: -$pemisah/2;
+	}
+}
+
+@media ( max-width: 768px ) {
+	[class^="kolom-"] {
+		width: 100%;
+	}
+}
