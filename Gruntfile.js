@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 				tasks : ['uglify']
 			}, // scripts
 			sass : {
-				files : ['_/komponen/sass/*.scss'],
+				files : ['_/komponen/sass/*.scss', '_/komponen/sass/pengaturan/*.scss', '_/komponen/sass/pola-dasar/*.scss', '_/komponen/sass/pola-lanjutan/*.scss'],
 				tasks : ['compass:dev']
 			}, // sass
 			html : {
