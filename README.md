@@ -12,9 +12,9 @@ Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan un
 
 - Sistem Grid bersifat Responsif dan Fluid
 - Terdiri dari 12 kolom yang dipisahkan oleh pemisah/gutter dengan besaran lebar yang ditentukan
-- Semua kolom harus memiliki Attribut Class .kolom-$
-- Semua kolom harus berada di dalam Parent Element kotak .baris
-- Parent Element kotak .baris akan membuat posisi kontennya berada di tengah halaman web browser
+- Semua kolom harus memiliki Attribut Class `.kolom-$`
+- Semua kolom harus berada di dalam Parent Element `kotak .baris`
+- Parent Element `kotak .baris` akan membuat posisi kontennya berada di tengah halaman web browser
 
 **Perilaku Responsif**
 - Pada ukuran layar (<1024px), semua kolom akan memiliki besaran lebar pemisah/gutter setengah dari yang sudah ditentukan sebelumnya
