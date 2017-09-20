@@ -1,5 +1,45 @@
-$myColor: #493940;
+/*
+* ----------------------------------------
+* 1.0 - Pola Dasar/Basic Pattern
+* ----------------------------------------
+*/
 
-body {
-	background-color: $myColor;
-}
+/* Normalize.css*/
+@import "pola-dasar/normalize";
+
+/* Sistem Grid */
+@import "pola-dasar/grid";
+
+/* Tipografi */
+@import "pola-dasar/tipografi";
+
+/* Tombol */
+@import "pola-dasar/tombol";
+
+/* Formulir */
+@import "pola-dasar/formulir";
+
+/* Ikon */
+@import "pola-dasar/ikon";
+
+/* Umpan Balik */
+@import "pola-dasar/umpanbalik";
+
+/* Navigasi */
+@import "pola-dasar/navigasi";
+
+
+/*
+* ----------------------------------------
+* 2.0 - Pola Lanjutan/Advanced Pattern
+* ----------------------------------------
+*/
+
+/* Tab */
+@import "pola-lanjutan/tab";
+
+/* Akordeon */
+@import "pola-lanjutan/akordeon";
+
+/* Carousels */
+@import "pola-lanjutan/carousels";
