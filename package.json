@@ -1,0 +1,30 @@
+{
+  "name": "web-pattern-library",
+  "version": "1.0.0",
+  "description": "Web Pattern Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grid",
+    "system",
+    "responsive",
+    "typography",
+    "form",
+    "elements",
+    "buttons",
+    "navigation",
+    "animations",
+    "tabs",
+    "accordions"
+  ],
+  "author": "Ricardo Silitonga",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
