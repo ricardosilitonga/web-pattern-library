@@ -637,6 +637,76 @@ blockquote {
   margin-left: 1.5em; }
 
 /* Tombol */
+/* line 3, ../komponen/sass/pola-dasar/_tombol.scss */
+button,
+.tombol,
+.tombol-utama,
+.tombol-kecil,
+.tombol-besar,
+a.tombol,
+a.tombol-utama,
+a.tombol-kecil,
+a.tombol-besar {
+  border: 0;
+  border-radius: 3px;
+  background-color: #dde2d4;
+  color: #333;
+  cursor: pointer;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: .75em 1.5em; }
+  /* line 23, ../komponen/sass/pola-dasar/_tombol.scss */
+  button:hover,
+  .tombol:hover,
+  .tombol-utama:hover,
+  .tombol-kecil:hover,
+  .tombol-besar:hover,
+  a.tombol:hover,
+  a.tombol-utama:hover,
+  a.tombol-kecil:hover,
+  a.tombol-besar:hover {
+    background-color: #333;
+    color: #fff; }
+  /* line 28, ../komponen/sass/pola-dasar/_tombol.scss */
+  button:active,
+  .tombol:active,
+  .tombol-utama:active,
+  .tombol-kecil:active,
+  .tombol-besar:active,
+  a.tombol:active,
+  a.tombol-utama:active,
+  a.tombol-kecil:active,
+  a.tombol-besar:active {
+    background-color: #4d4d4d; }
+  /* line 32, ../komponen/sass/pola-dasar/_tombol.scss */
+  button:focus,
+  .tombol:focus,
+  .tombol-utama:focus,
+  .tombol-kecil:focus,
+  .tombol-besar:focus,
+  a.tombol:focus,
+  a.tombol-utama:focus,
+  a.tombol-kecil:focus,
+  a.tombol-besar:focus {
+    outline: none; }
+
+/* line 37, ../komponen/sass/pola-dasar/_tombol.scss */
+.tombol-utama {
+  background-color: #0f82bd;
+  color: #d0edfb; }
+
+/* line 43, ../komponen/sass/pola-dasar/_tombol.scss */
+.tombol-kecil {
+  font-size: 0.75em; }
+
+/* line 48, ../komponen/sass/pola-dasar/_tombol.scss */
+.tombol-besar {
+  font-size: 2em;
+  font-weight: bold; }
+
 /* Formulir */
 /* Ikon */
 /* Umpan Balik */

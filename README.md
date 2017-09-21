@@ -35,8 +35,8 @@ Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan un
 
 **Penjelasan**
 
-- Ada 2 style: setingan-awal dan utama
-- Ada 3 ukuran: kecil, setingan-awal, dan besar
+- Ada 2 style: default dan utama
+- Ada 3 ukuran: kecil, default, dan besar
 - Memiliki style untuk elemen `<a>, <button>, <input type="button">, <input type="submit">`
 
 ## Formulir/Form
@@ -54,7 +54,7 @@ Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan un
 - Menggunakan FontAwesome
 - Memiliki style untuk border icon
 - Memiliki style untuk persegi, bulat, sudut
-- Ada 3 ukuran: setingan-awal, besar, lebih-besar
+- Ada 3 ukuran: default, besar, lebih-besar
 
 ## Umpan-balik/Feedback
 
