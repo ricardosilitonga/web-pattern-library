@@ -31,7 +31,7 @@ Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan un
 - Lists
 - Blockquotes
 
-## Tombol
+## Tombol/Buttons
 
 **Penjelasan**
 
