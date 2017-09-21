@@ -1,0 +1,86 @@
+@import "../pengaturan/pengaturan.scss";
+
+html {
+	font-size: 1em;
+}
+
+html,
+input,
+button,
+textarea {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	color: $warna-teks;
+	font-family: $bentuk-huruf;
+	line-height: $garis-landasan;
+}
+
+p {
+	margin-bottom: $garis-landasan;
+}
+
+a,
+a:visited {
+	color: $warna-link;
+}
+
+hr {
+	border: 0;
+	background-color: $warna-hr;
+	height: 1px;
+	margin: $garis-landasan 0;
+}
+
+#{headings()} {
+	margin: $garis-landasan 0;
+	line-height: 1.2;
+}
+
+h5,h6 {
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: $ukuran-h1;
+}
+
+h2 {
+	font-size: $ukuran-h2;
+}
+
+h3 {
+	font-size: $ukuran-h3;
+}
+
+h4 {
+	font-size: $ukuran-h4;
+}
+
+h5 {
+	font-size: $ukuran-h5;
+}
+
+h6 {
+	font-size: $ukuran-h6;
+}
+
+ul,
+ol {
+	margin: 0 0 $garis-landasan $garis-landasan;
+	padding: 0;
+}
+
+blockquote {
+	color: $warna-teks-terang;
+	font-style: italic;
+	margin-left: $garis-landasan;
+
+	footer {
+		@extend small;
+	}
+}

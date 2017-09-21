@@ -1,3 +1,20 @@
-// Grid Variabel
+// Variabel Grid
 $jumlah-kolom: 12;
 $pemisah: 1em;
+
+// Variabel Tipografi
+$warna-teks: #333;
+$warna-teks-terang: lighten($warna-teks, 30%);
+$warna-link: #0f82bd;
+$warna-hr: #ccc;
+
+$garis-landasan: 1.5em;
+
+$bentuk-huruf: Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+$ukuran-h1: 3.998em;
+$ukuran-h2: 2.827em;
+$ukuran-h3: 1.999em;
+$ukuran-h4: 1.414em;
+$ukuran-h5: 1em;
+$ukuran-h6: .707em;
