@@ -318,6 +318,152 @@
 		</div><!-- .kotak -->
 	</div><!-- section -->
 
+	<!-- Formulir/Forms -->
+	<section>
+		<div class="kotak">
+			<h2>Formulir</h2>
+
+			<hr>
+
+			<form action="">
+				<div class="baris">
+					<div class="kolom-setengah">
+						<fieldset>
+							<legend>Teks Keterangan Formulir</legend>
+							<div class="grup-bidang">
+								<label for="demo-input-1">Teks Keterangan Input</label>
+								<input type="text" id="demo-input-1" name="demo_input_1" placeholder="Input teks">
+								<p class="help">Teks bantuan input</p>
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang bidang-error">
+								<label for="demo-input-2">Contoh Input Error</label>
+								<input type="text" id="demo-input-2" name="demo_input_2" placeholder="Input teks">
+								<p class="help">Ooopsss....</p>
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="demo-textarea">Contoh Textarea</label>
+								<textarea id="demo-textarea" cols="30" rows="10" placeholder="Ini adalah textarea"></textarea>
+							</div><!-- .grup-bidang -->
+						</fieldset>
+					</div><!-- .kolom-setengah -->
+
+					<div class="kolom-setengah">
+						<fieldset>
+							<legend>Radio Buttons and Checkboxes</legend>
+
+							<div class="grup-bidang">
+								<input type="radio" name="demo_radio" id="demo-radio-1"><label for="demo-radio-1">Radio 1</label>
+								<input type="radio" name="demo_radio" id="demo-radio-2"><label for="demo-radio-2">Radio 2</label>
+								<input type="radio" name="demo_radio" id="demo-radio-3"><label for="demo-radio-3">Radio 3</label>
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<input type="checkbox" name="demo_checkbox" id="demo-checkbox"><label for="demo-checkbox">Checkbox</label>
+							</div><!-- .grup-bidang -->
+						</fieldset>
+					</div><!-- .kolom-setengah -->
+				</div><!-- .baris -->
+			</form>
+
+			<div class="baris">
+				<div class="kolom-4">
+					<form action="">
+						<fieldset>
+							<legend>Formulir Masuk</legend>
+							<div class="grup-bidang">
+								<label for="nama-pengguna">Nama Pengguna: <span class="wajib-diisi">*</span></label>
+								<input type="text" id="nama-pengguna" name="nama_pengguna">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="password-masuk">Password: <span class="wajib-diisi">*</span></label>
+								<input type="password" id="password-masuk" name="password_masuk">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<input type="checkbox" id="ingat-saya" name="ingat_saya"><label for="ingat-saya">Ingat saya</label>
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<input type="submit" class="tombol" value="Masuk">
+							</div><!-- .grup-bidang -->
+
+							<p><em><span class="wajib-diisi">*</span> bidang wajib diisi</em></p>
+						</fieldset>
+					</form>
+				</div><!-- .kolom-4 -->
+
+				<div class="kolom-4">
+					<form action="">
+						<fieldset>
+							<legend>Formulir Pendaftaran</legend>
+							<div class="grup-bidang">
+								<label for="daftar-email">Email: <span class="wajib-diisi">*</span></label>
+								<input type="email" id="daftar-email" name="daftar_email">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="daftar-nama-pengguna">Nama Pengguna: <span class="wajib-diisi">*</span></label>
+								<input type="text" id="daftar-nama-pengguna" name="daftar_nama_pengguna">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="daftar-password">Password: <span class="wajib-diisi">*</span></label>
+								<input type="password" id="daftar-password" name="daftar_password">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="daftar-konfirmasi-password">Konfirmasi Password: <span class="wajib-diisi">*</span></label>
+								<input type="password" id="daftar-konfirmasi-password" name="daftar_konfirmasi_password">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<input type="submit" class="tombol" value="Daftar">
+							</div><!-- .grup-bidang -->
+
+							<p><em><span class="wajib-diisi">*</span> bidang wajib diisi</em></p>
+						</fieldset>
+					</form>
+				</div><!-- .kolom-4 -->
+
+				<div class="kolom-4">
+					<form action="">
+						<fieldset>
+							<legend>Formulir Kontak</legend>
+							<div class="grup-bidang">
+								<label for="kontak-nama">Nama: <span class="wajib-diisi">*</span></label>
+								<input type="text" id="kontak-nama" name="kontak_nama">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="kontak-email">Email: <span class="wajib-diisi">*</span></label>
+								<input type="email" id="kontak-email" name="kontak_email">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="kontak-website">Website:</label>
+								<input type="url" id="kontak-website" name="kontak_website">
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<label for="kontak-pesan">Pesan: <span class="wajib-diisi">*</span></label>
+								<textarea id="kontak-pesan" name="kontak_pesan" cols="30" rows="10" placeholder="Ketik pesan anda disini...." class="bidang-penuh"></textarea>
+							</div><!-- .grup-bidang -->
+
+							<div class="grup-bidang">
+								<input type="submit" class="tombol" value="Kirim Pesan">
+							</div><!-- .grup-bidang -->
+
+							<p><em><span class="wajib-diisi">*</span> bidang wajib diisi</em></p>
+						</fieldset>
+					</form>
+				</div><!-- .kolom-4 -->
+			</div><!-- .baris -->
+		</div><!-- .kotak -->
+	</section><!-- section -->
+
 	<script src="_/js/script.js"></script>
 	<script src="http://localhost:35729/livereload.js"></script>
 </body>

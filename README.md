@@ -44,8 +44,8 @@ Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan un
 **Elemen**
 
 - Input
-- Radio dan Checkboxes
-- Memiliki form masuk, keluar, dan kontak
+- Radio dan Checkboxes (kontrol khusus)
+- formulir siap pakai: masuk, keluar, dan kontak
 
 ## Ikon
 

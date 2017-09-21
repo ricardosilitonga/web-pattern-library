@@ -169,7 +169,7 @@ mark {
  * Add the correct font size in all browsers.
  */
 /* line 170, ../komponen/sass/pola-dasar/_normalize.scss */
-small, blockquote footer {
+small, blockquote footer, form .grup-bidang .help {
   font-size: 80%; }
 
 /**
@@ -708,6 +708,89 @@ a.tombol-besar {
   font-weight: bold; }
 
 /* Formulir */
+/* line 4, ../komponen/sass/pola-dasar/_formulir.scss */
+form .grup-bidang {
+  margin-bottom: 1em; }
+  /* line 7, ../komponen/sass/pola-dasar/_formulir.scss */
+  form .grup-bidang label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: bold; }
+  /* line 14, ../komponen/sass/pola-dasar/_formulir.scss */
+  form .grup-bidang input:not([class^="tombol"]),
+  form .grup-bidang textarea {
+    border: 1px solid #ccc;
+    padding: .75em; }
+    /* line 19, ../komponen/sass/pola-dasar/_formulir.scss */
+    form .grup-bidang input:not([class^="tombol"]):focus, form .grup-bidang input:not([class^="tombol"]):hover,
+    form .grup-bidang textarea:focus,
+    form .grup-bidang textarea:hover {
+      border-color: #a6a6a6;
+      outline: none; }
+    /* line 25, ../komponen/sass/pola-dasar/_formulir.scss */
+    form .grup-bidang input:not([class^="tombol"]).bidang-penuh,
+    form .grup-bidang textarea.bidang-penuh {
+      width: 100%; }
+  /* line 30, ../komponen/sass/pola-dasar/_formulir.scss */
+  form .grup-bidang .help {
+    margin: .5em 0 0;
+    color: gray;
+    font-style: italic; }
+  /* line 38, ../komponen/sass/pola-dasar/_formulir.scss */
+  form .grup-bidang.bidang-error label,
+  form .grup-bidang.bidang-error .help,
+  form .grup-bidang.bidang-error input {
+    color: red;
+    border-color: #ffcccc; }
+/* line 47, ../komponen/sass/pola-dasar/_formulir.scss */
+form .wajib-diisi {
+  color: red; }
+/* line 51, ../komponen/sass/pola-dasar/_formulir.scss */
+form fieldset {
+  border-color: #ccc;
+  padding: 1.5em;
+  margin-bottom: 1.5em; }
+  /* line 56, ../komponen/sass/pola-dasar/_formulir.scss */
+  form fieldset legend {
+    font-weight: bold;
+    padding: 0 .5em; }
+/* line 62, ../komponen/sass/pola-dasar/_formulir.scss */
+form input[type="checkbox"],
+form input[type="radio"] {
+  display: none; }
+/* line 67, ../komponen/sass/pola-dasar/_formulir.scss */
+form input[type="checkbox"] + label:before {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+  display: inline-block;
+  height: 1.25em;
+  margin: -2px 6px 0 0;
+  vertical-align: middle;
+  width: 1.25em;
+  font-size: .75em;
+  line-height: 1.25em; }
+/* line 82, ../komponen/sass/pola-dasar/_formulir.scss */
+form input[type="checkbox"]:checked + label:before {
+  content: "\2713"; }
+/* line 86, ../komponen/sass/pola-dasar/_formulir.scss */
+form input[type="radio"] + label:before {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 1.25em;
+  content: "";
+  display: inline-block;
+  height: .6em;
+  margin: -2px 6px 0 0;
+  width: .6em;
+  vertical-align: middle;
+  font-size: 1.65em;
+  line-height: .6em;
+  text-align: center; }
+/* line 105, ../komponen/sass/pola-dasar/_formulir.scss */
+form input[type="radio"]:checked + label:before {
+  content: "\2022"; }
+
 /* Ikon */
 /* Umpan Balik */
 /* Navigasi */
