@@ -1,5 +1,10 @@
 @import "../pengaturan/pengaturan";
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	font-size: 1em;
 }
@@ -19,7 +24,7 @@ body {
 }
 
 p {
-	margin-bottom: $landasan-garis;
+	margin: $landasan-garis;
 }
 
 a,
@@ -35,7 +40,7 @@ hr {
 }
 
 #{headings()} {
-	margin: $landasan-garis 0;
+	margin: $landasan-garis/2 0;
 	line-height: 1.2;
 }
 

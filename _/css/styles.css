@@ -556,10 +556,15 @@ img {
     width: 100%; } }
 /* Tipografi */
 /* line 3, ../komponen/sass/pola-dasar/_tipografi.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 8, ../komponen/sass/pola-dasar/_tipografi.scss */
 html {
   font-size: 1em; }
 
-/* line 7, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 12, ../komponen/sass/pola-dasar/_tipografi.scss */
 html,
 input,
 button,
@@ -567,74 +572,74 @@ textarea {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-/* line 15, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 20, ../komponen/sass/pola-dasar/_tipografi.scss */
 body {
   color: #333;
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.5em; }
+  line-height: 1em; }
 
-/* line 21, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 26, ../komponen/sass/pola-dasar/_tipografi.scss */
 p {
-  margin-bottom: 1.5em; }
+  margin: 1em; }
 
-/* line 25, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 30, ../komponen/sass/pola-dasar/_tipografi.scss */
 a,
 a:visited {
   color: #0f82bd; }
 
-/* line 30, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 35, ../komponen/sass/pola-dasar/_tipografi.scss */
 hr {
   border: 0;
   background-color: #ccc;
   height: 1px;
-  margin: 1.5em 0; }
-
-/* line 37, ../komponen/sass/pola-dasar/_tipografi.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin: 1.5em 0;
-  line-height: 1.2; }
+  margin: 1em 0; }
 
 /* line 42, ../komponen/sass/pola-dasar/_tipografi.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0;
+  line-height: 1.2; }
+
+/* line 47, ../komponen/sass/pola-dasar/_tipografi.scss */
 h5, h6 {
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
-/* line 48, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 53, ../komponen/sass/pola-dasar/_tipografi.scss */
 h1 {
   font-size: 3.998em; }
 
-/* line 52, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 57, ../komponen/sass/pola-dasar/_tipografi.scss */
 h2 {
   font-size: 2.827em; }
 
-/* line 56, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 61, ../komponen/sass/pola-dasar/_tipografi.scss */
 h3 {
   font-size: 1.999em; }
 
-/* line 60, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 65, ../komponen/sass/pola-dasar/_tipografi.scss */
 h4 {
   font-size: 1.414em; }
 
-/* line 64, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 69, ../komponen/sass/pola-dasar/_tipografi.scss */
 h5 {
   font-size: 1em; }
 
-/* line 68, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 73, ../komponen/sass/pola-dasar/_tipografi.scss */
 h6 {
   font-size: 0.707em; }
 
-/* line 72, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 77, ../komponen/sass/pola-dasar/_tipografi.scss */
 ul,
 ol {
-  margin: 0 0 1.5em 1.5em;
+  margin: 0 0 1em 1em;
   padding: 0; }
 
-/* line 78, ../komponen/sass/pola-dasar/_tipografi.scss */
+/* line 83, ../komponen/sass/pola-dasar/_tipografi.scss */
 blockquote {
   color: gray;
   font-style: italic;
-  margin-left: 1.5em; }
+  margin-left: 1em; }
 
 /* Tombol */
 /* line 3, ../komponen/sass/pola-dasar/_tombol.scss */
@@ -749,7 +754,7 @@ form .wajib-diisi {
 form fieldset {
   border-color: #ccc;
   padding: 1.5em;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1em; }
   /* line 56, ../komponen/sass/pola-dasar/_formulir.scss */
   form fieldset legend {
     font-weight: bold;
@@ -798,7 +803,7 @@ form input[type="radio"]:checked + label:before {
   height: 3em;
   width: 3em;
   padding: .25em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   text-align: center; }
   /* line 11, ../komponen/sass/pola-dasar/_ikon.scss */
   [class^="ikon-"] i {
@@ -821,6 +826,51 @@ form input[type="radio"]:checked + label:before {
   font-size: 250%; }
 
 /* Umpan Balik */
+/* line 3, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+[class^="umpan"] {
+  border: 1px solid;
+  border-bottom-width: 3px;
+  margin: 1em 0;
+  padding: 1em; }
+  /* line 9, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+  [class^="umpan"] p:first-child {
+    margin-bottom: 0.5em; }
+  /* line 13, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+  [class^="umpan"] p:last-child {
+    margin-top: 0.5em; }
+
+/* line 19, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+.umpan-informasi {
+  border-color: #bddcee;
+  background-color: #fafcfe; }
+  /* line 23, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+  .umpan-informasi p:first-child {
+    color: #439ccf; }
+
+/* line 28, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+.umpan-error {
+  border-color: #f6a79f;
+  background-color: #fde7e5; }
+  /* line 32, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+  .umpan-error p:first-child {
+    color: #e72915; }
+
+/* line 37, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+.umpan-peringatan {
+  border-color: #ffa76d;
+  background-color: #ffd5ba; }
+  /* line 41, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+  .umpan-peringatan p:first-child {
+    color: #d35400; }
+
+/* line 46, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+.umpan-sukses {
+  border-color: #bedf91;
+  background-color: #e1f0cc; }
+  /* line 50, ../komponen/sass/pola-dasar/_umpanbalik.scss */
+  .umpan-sukses p:first-child {
+    color: #74a730; }
+
 /* Navigasi */
 /*
 * ----------------------------------------

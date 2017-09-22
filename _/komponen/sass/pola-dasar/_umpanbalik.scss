@@ -1,0 +1,53 @@
+@import "../pengaturan/pengaturan";
+
+[class^="umpan"] {
+	border: 1px solid;
+	border-bottom-width: 3px;
+	margin: $landasan-garis 0;
+	padding: $landasan-garis;
+
+	p:first-child {
+		margin-bottom: $landasan-garis/2;
+	}
+
+	p:last-child {
+		margin-top: $landasan-garis/2;
+	}
+
+}
+
+.umpan-informasi {
+	border-color: lighten($informasi-warna, 30%);
+	background-color: lighten($informasi-warna, 45%);
+
+	p:first-child {
+		color: $informasi-warna;
+	}
+}
+
+.umpan-error {
+	border-color: lighten($error-warna, 30%);
+	background-color: lighten($error-warna, 45%);
+
+	p:first-child {
+		color: $error-warna;
+	}
+}
+
+.umpan-peringatan {
+	border-color: lighten($peringatan-warna, 30%);
+	background-color: lighten($peringatan-warna, 45%);
+
+	p:first-child {
+		color: $peringatan-warna;
+	}
+}
+
+.umpan-sukses {
+	border-color: lighten($sukses-warna, 30%);
+	background-color: lighten($sukses-warna, 45%);
+
+	p:first-child {
+		color: $sukses-warna;
+	}
+}

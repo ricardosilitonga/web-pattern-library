@@ -8,7 +8,7 @@ $teks-warna-terang: lighten($teks-warna, 30%);
 $link-warna: #0f82bd;
 $hr-warna: #ccc;
 
-$landasan-garis: 1.5em;
+$landasan-garis: 1em;
 
 $huruf-bentuk: Helvetica, "Helvetica Neue", Arial, sans-serif;
 
@@ -39,3 +39,9 @@ $bidang-warna-wajib-diisi: red;
 // Variabel Ikon
 $ikon-sudut-lengkung: 3px;
 $ikon-warna-border: #ccc;
+
+// Variabel Umpan Balik
+$informasi-warna: #439ccf;
+$error-warna: #e72915;
+$peringatan-warna: #d35400;
+$sukses-warna: #74a730;
