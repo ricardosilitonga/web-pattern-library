@@ -13,29 +13,29 @@ textarea {
 }
 
 body {
-	color: $warna-teks;
-	font-family: $bentuk-huruf;
-	line-height: $garis-landasan;
+	color: $teks-warna;
+	font-family: $huruf-bentuk;
+	line-height: $landasan-garis;
 }
 
 p {
-	margin-bottom: $garis-landasan;
+	margin-bottom: $landasan-garis;
 }
 
 a,
 a:visited {
-	color: $warna-link;
+	color: $link-warna;
 }
 
 hr {
 	border: 0;
-	background-color: $warna-hr;
+	background-color: $hr-warna;
 	height: 1px;
-	margin: $garis-landasan 0;
+	margin: $landasan-garis 0;
 }
 
 #{headings()} {
-	margin: $garis-landasan 0;
+	margin: $landasan-garis 0;
 	line-height: 1.2;
 }
 
@@ -46,39 +46,39 @@ h5,h6 {
 }
 
 h1 {
-	font-size: $ukuran-h1;
+	font-size: $h1-ukuran;
 }
 
 h2 {
-	font-size: $ukuran-h2;
+	font-size: $h2-ukuran;
 }
 
 h3 {
-	font-size: $ukuran-h3;
+	font-size: $h3-ukuran;
 }
 
 h4 {
-	font-size: $ukuran-h4;
+	font-size: $h4-ukuran;
 }
 
 h5 {
-	font-size: $ukuran-h5;
+	font-size: $h5-ukuran;
 }
 
 h6 {
-	font-size: $ukuran-h6;
+	font-size: $h6-ukuran;
 }
 
 ul,
 ol {
-	margin: 0 0 $garis-landasan $garis-landasan;
+	margin: 0 0 $landasan-garis $landasan-garis;
 	padding: 0;
 }
 
 blockquote {
-	color: $warna-teks-terang;
+	color: $teks-warna-terang;
 	font-style: italic;
-	margin-left: $garis-landasan;
+	margin-left: $landasan-garis;
 
 	footer {
 		@extend small;

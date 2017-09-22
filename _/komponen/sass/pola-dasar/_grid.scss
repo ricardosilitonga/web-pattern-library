@@ -14,8 +14,8 @@
 
 /* Baris */
 .baris {
-	margin-left: -$pemisah;
-	margin-right: -$pemisah;
+	margin-left: -$kolom-pemisah;
+	margin-right: -$kolom-pemisah;
 }
 
 .baris:after {
@@ -28,13 +28,13 @@
 /* Kolom */
 [class^="kolom-"] {
 	float: left;
-	padding: 0 $pemisah;
+	padding: 0 $kolom-pemisah;
 }
 
 /* Lebar Kolom */
-@for $i from 1 through $jumlah-kolom {
+@for $i from 1 through $kolom-jumlah {
 	.kolom-#{$i} {
-		width: ( 100 / $jumlah-kolom ) * $i * 1%;
+		width: ( 100 / $kolom-jumlah ) * $i * 1%;
 	}
 }
 
@@ -63,12 +63,12 @@ img {
 /* Perilaku Responsif */
 @media ( max-width: 1024px ) {
 	[class^="kolom-"] {
-		padding: 0 $pemisah/2;
+		padding: 0 $kolom-pemisah/2;
 	}
 
 	.baris {
-		margin-left: -$pemisah/2;
-		margin-right: -$pemisah/2;
+		margin-left: -$kolom-pemisah/2;
+		margin-right: -$kolom-pemisah/2;
 	}
 }
 

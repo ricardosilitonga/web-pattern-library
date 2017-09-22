@@ -4,11 +4,11 @@ button,
 .tombol,
 a.tombol {
 	border: 0;
-	border-radius: $kebulatan-tombol;
+	border-radius: $tombol-kebulatan;
 
-	background-color: $warna-latar-tombol-default;
+	background-color: $tombol-warna-latar-default;
 	
-	color: $warna-teks-tombol-default;
+	color: $tombol-warna-teks-default;
 	cursor: pointer;
 
 	line-height: 1;
@@ -21,12 +21,12 @@ a.tombol {
 	padding: .75em 1.5em;
 
 	&:hover {
-		background-color: $warna-teks;
+		background-color: $teks-warna;
 		color: #fff;
 	}
 
 	&:active {
-		background-color: lighten($warna-teks, 10%);
+		background-color: lighten($teks-warna, 10%);
 	}
 
 	&:focus {
@@ -36,17 +36,17 @@ a.tombol {
 
 .tombol-utama {
 	@extend .tombol;
-	background-color: $warna-latar-tombol-utama;
-	color: $warna-teks-tombol-utama;
+	background-color: $tombol-utama-warna-latar;
+	color: $tombol-utama-warna-teks;
 }
 
 .tombol-kecil {
 	@extend .tombol;
-	font-size: $ukuran-tombol-kecil;
+	font-size: $tombol-ukuran-kecil;
 }
 
 .tombol-besar {
 	@extend .tombol;
-	font-size: $ukuran-tombol-besar;
+	font-size: $tombol-ukuran-besar;
 	font-weight: bold;
 }

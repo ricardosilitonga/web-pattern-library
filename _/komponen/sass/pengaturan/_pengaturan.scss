@@ -1,37 +1,41 @@
 // Variabel Grid
-$jumlah-kolom: 12;
-$pemisah: 1em;
+$kolom-jumlah: 12;
+$kolom-pemisah: 1em;
 
 // Variabel Tipografi
-$warna-teks: #333;
-$warna-teks-terang: lighten($warna-teks, 30%);
-$warna-link: #0f82bd;
-$warna-hr: #ccc;
+$teks-warna: #333;
+$teks-warna-terang: lighten($teks-warna, 30%);
+$link-warna: #0f82bd;
+$hr-warna: #ccc;
 
-$garis-landasan: 1.5em;
+$landasan-garis: 1.5em;
 
-$bentuk-huruf: Helvetica, "Helvetica Neue", Arial, sans-serif;
+$huruf-bentuk: Helvetica, "Helvetica Neue", Arial, sans-serif;
 
-$ukuran-h1: 3.998em;
-$ukuran-h2: 2.827em;
-$ukuran-h3: 1.999em;
-$ukuran-h4: 1.414em;
-$ukuran-h5: 1em;
-$ukuran-h6: .707em;
+$h1-ukuran: 3.998em;
+$h2-ukuran: 2.827em;
+$h3-ukuran: 1.999em;
+$h4-ukuran: 1.414em;
+$h5-ukuran: 1em;
+$h6-ukuran: .707em;
 
 // Variabel Tombol
-$kebulatan-tombol: 3px;
+$tombol-kebulatan: 3px;
 
-$ukuran-tombol-kecil: .75em;
-$ukuran-tombol-besar: 2em;
+$tombol-ukuran-kecil: .75em;
+$tombol-ukuran-besar: 2em;
 
-$warna-latar-tombol-default: #dde2d4;
-$warna-teks-tombol-default: #333;
+$tombol-warna-latar-default: #dde2d4;
+$tombol-warna-teks-default: #333;
 
-$warna-latar-tombol-utama: #0f82bd;
-$warna-teks-tombol-utama: lighten(#0f82bd, 50%);
+$tombol-utama-warna-latar: #0f82bd;
+$tombol-utama-warna-teks: lighten(#0f82bd, 50%);
 
 // Variabel Formulir
-$warna-bidang-border: #ccc;
-$warna-bidang-error: red;
-$warna-bidang-wajib-diisi: red;
+$bidang-warna-border: #ccc;
+$bidang-warna-error: red;
+$bidang-warna-wajib-diisi: red;
+
+// Variabel Ikon
+$ikon-sudut-lengkung: 3px;
+$ikon-warna-border: #ccc;

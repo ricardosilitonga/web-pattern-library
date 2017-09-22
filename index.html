@@ -6,6 +6,8 @@
 	<!-- Spesifik Meta untuk Mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="_/css/styles.css">
+	<!-- Komponen Bower -->
+	<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
 	<style>
 		.demo-kolom {
 			background-color: #def0fa;
@@ -340,7 +342,7 @@
 								<label for="demo-input-2">Contoh Input Error</label>
 								<input type="text" id="demo-input-2" name="demo_input_2" placeholder="Input teks">
 								<p class="help">Ooopsss....</p>
-							</div><!-- .grup-bidang -->
+							</div><!-- .grup-bidang.bidang-error -->
 
 							<div class="grup-bidang">
 								<label for="demo-textarea">Contoh Textarea</label>
@@ -351,7 +353,7 @@
 
 					<div class="kolom-setengah">
 						<fieldset>
-							<legend>Radio Buttons and Checkboxes</legend>
+							<legend>Radio Buttons dan Checkboxes</legend>
 
 							<div class="grup-bidang">
 								<input type="radio" name="demo_radio" id="demo-radio-1"><label for="demo-radio-1">Radio 1</label>
@@ -463,6 +465,58 @@
 			</div><!-- .baris -->
 		</div><!-- .kotak -->
 	</section><!-- section -->
+
+	<!-- Ikon -->
+	<section>
+		<div class="kotak">
+			<h2>Ikon FontAwesome</h2>
+			<i class="fa fa-github"></i> ikon sederhana
+
+			<hr>
+
+			<div class="baris">
+				<div class="kolom-setengah">
+					<h4>Border Ikon</h4>
+
+					<div class="ikon-bulat">
+						<i class="fa fa-github"></i>
+					</div><!-- .ikon-bulat -->
+					<p>Bulat</p>
+
+					<div class="ikon-sudut-lengkung">
+						<i class="fa fa-github"></i>
+					</div><!-- .ikon-sudut-lengkung -->
+					<p>Sudut Lengkung</p>
+
+					<div class="ikon-persegi">
+						<i class="fa fa-github"></i>
+					</div><!-- .ikon-persegi -->
+					<p>Persegi</p>
+				</div><!-- .kolom-setengah -->
+
+				<div class="kolom-setengah">
+					<h4>Ukuran Ikon</h4>
+
+					<div class="ikon-bulat">
+						<i class="fa fa-github"></i>
+					</div><!-- .ikon-bulat -->
+					<p>Default</p>
+
+					<div class="ikon-bulat ikon-besar">
+						<i class="fa fa-github"></i>
+					</div><!-- .ikon-bulat.ikon-besar -->
+					<p>Besar</p>
+
+					<div class="ikon-bulat ikon-maksimal">
+						<i class="fa fa-github"></i>
+					</div><!-- .ikon-bulat.ikon-maksimal -->
+					<p>Maksimal</p>
+				</div><!-- .kolom-setengah -->
+			</div><!-- .baris -->
+		</div><!-- .kotak -->
+	</section><!-- section -->
+
+
 
 	<script src="_/js/script.js"></script>
 	<script src="http://localhost:35729/livereload.js"></script>

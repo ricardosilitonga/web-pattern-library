@@ -1,0 +1,30 @@
+@import "../pengaturan/pengaturan";
+
+[class^="ikon-"] {
+	border: 1px solid $ikon-warna-border;
+	height: 3em;
+	width: 3em;
+	padding: .25em;
+	margin-bottom: $landasan-garis;
+	text-align: center;
+
+	i {
+		line-height: 2.5em;
+	}
+}
+
+.ikon-bulat {
+	border-radius: 100%;
+}
+
+.ikon-sudut-lengkung {
+	border-radius: $ikon-sudut-lengkung;
+}
+
+.ikon-besar {
+	font-size: 150%;
+}
+
+.ikon-maksimal {
+	font-size: 250%;
+}

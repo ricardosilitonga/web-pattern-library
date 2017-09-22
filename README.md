@@ -1,8 +1,8 @@
-# Pattern Library
+# Web Pattern Library
 
-Pattern Library adalah kumpulan dari beberapa Pattern/Pola yang memberikan solusi pada masing-masing masalah yang ada. Web Pattern Library ditujukan untuk memberikan solusi pada masalah saat membangun halaman web. Salah satu Web Pattern Library yang populer adalah Bootstrap.
+Pattern Library adalah kumpulan dari beberapa Pattern/Pola yang memberikan solusi pada masing-masing masalah yang ada. Web Pattern Library memiliki sekumpulan pola yang memberikan solusi pada masalah saat membangun halaman web. Salah satu Web Pattern Library yang populer adalah Bootstrap.
 
-Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan untuk membangun halaman web yang responsif.
+Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan untuk membangun halaman web yang responsif. Dibawah ini adalah beberapa pola yang umumnya digunakan pada web pattern library.
 
 ---
 
@@ -52,8 +52,8 @@ Web Pattern Library ini tidak selengkap Bootstrap tapi sangat cocok digunakan un
 **Penjelasan**
 
 - Menggunakan FontAwesome
-- Memiliki style untuk border icon
-- Memiliki style untuk persegi, bulat, sudut
+- Memiliki style untuk border ikon
+- Memiliki style border bulat, border sudut-lengkung dan border persegi
 - Ada 3 ukuran: default, besar, lebih-besar
 
 ## Umpan-balik/Feedback

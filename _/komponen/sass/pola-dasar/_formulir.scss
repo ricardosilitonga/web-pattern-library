@@ -13,12 +13,12 @@ form {
 
 		input:not([class^="tombol"]),
 		textarea {
-			border: 1px solid $warna-bidang-border;
+			border: 1px solid $bidang-warna-border;
 			padding: .75em;
 
 			&:focus,
 			&:hover {
-				border-color: darken($warna-bidang-border, 15%);
+				border-color: darken($bidang-warna-border, 15%);
 				outline: none;
 			}
 
@@ -30,7 +30,7 @@ form {
 		.help {
 			@extend small;
 			margin: .5em 0 0;
-			color: $warna-teks-terang;
+			color: $teks-warna-terang;
 			font-style: italic;
 		}
 
@@ -38,20 +38,20 @@ form {
 			label,
 			.help,
 			input {
-				color: $warna-bidang-error;
-				border-color: lighten($warna-bidang-error, 40%);
+				color: $bidang-warna-error;
+				border-color: lighten($bidang-warna-error, 40%);
 			}
 		}
 	}
 
 	.wajib-diisi {
-		color: $warna-bidang-wajib-diisi;
+		color: $bidang-warna-wajib-diisi;
 	}
 
 	fieldset {
-		border-color: $warna-bidang-border;
+		border-color: $bidang-warna-border;
 		padding: 1.5em;
-		margin-bottom: $garis-landasan;
+		margin-bottom: $landasan-garis;
 
 		legend {
 			font-weight: bold;
@@ -66,7 +66,7 @@ form {
 
 	input[type="checkbox"] + label:before {
 		background-color: #fff;
-		border: 1px solid $warna-bidang-border;
+		border: 1px solid $bidang-warna-border;
 
 		content: "";
 		display: inline-block;
@@ -86,7 +86,7 @@ form {
 	input[type="radio"] + label:before {
 		background-color: #fff;
 
-		border: 1px solid $warna-bidang-border;
+		border: 1px solid $bidang-warna-border;
 		border-radius: 1.25em;
 
 		content: "";

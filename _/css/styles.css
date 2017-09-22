@@ -792,6 +792,34 @@ form input[type="radio"]:checked + label:before {
   content: "\2022"; }
 
 /* Ikon */
+/* line 3, ../komponen/sass/pola-dasar/_ikon.scss */
+[class^="ikon-"] {
+  border: 1px solid #ccc;
+  height: 3em;
+  width: 3em;
+  padding: .25em;
+  margin-bottom: 1.5em;
+  text-align: center; }
+  /* line 11, ../komponen/sass/pola-dasar/_ikon.scss */
+  [class^="ikon-"] i {
+    line-height: 2.5em; }
+
+/* line 16, ../komponen/sass/pola-dasar/_ikon.scss */
+.ikon-bulat {
+  border-radius: 100%; }
+
+/* line 20, ../komponen/sass/pola-dasar/_ikon.scss */
+.ikon-sudut-lengkung {
+  border-radius: 3px; }
+
+/* line 24, ../komponen/sass/pola-dasar/_ikon.scss */
+.ikon-besar {
+  font-size: 150%; }
+
+/* line 28, ../komponen/sass/pola-dasar/_ikon.scss */
+.ikon-maksimal {
+  font-size: 250%; }
+
 /* Umpan Balik */
 /* Navigasi */
 /*
