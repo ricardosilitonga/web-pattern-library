@@ -1111,3 +1111,35 @@ form input[type="radio"]:checked + label:before {
     margin-bottom: 0; }
 
 /* Carousels */
+/* line 1, ../komponen/sass/pola-lanjutan/_carousels.scss */
+.cycle-slideshow {
+  position: relative; }
+  /* line 6, ../komponen/sass/pola-lanjutan/_carousels.scss */
+  .cycle-slideshow .cycle-prev,
+  .cycle-slideshow .cycle-next {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 3em;
+    margin-top: -1.5em;
+    width: 3em;
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 3em;
+    cursor: pointer; }
+    /* line 22, ../komponen/sass/pola-lanjutan/_carousels.scss */
+    .cycle-slideshow .cycle-prev:hover,
+    .cycle-slideshow .cycle-next:hover {
+      background-color: rgba(255, 255, 255, 0.9); }
+  /* line 27, ../komponen/sass/pola-lanjutan/_carousels.scss */
+  .cycle-slideshow .cycle-next {
+    right: 0; }
+  /* line 31, ../komponen/sass/pola-lanjutan/_carousels.scss */
+  .cycle-slideshow .cycle-prev {
+    left: 0; }
+  /* line 35, ../komponen/sass/pola-lanjutan/_carousels.scss */
+  .cycle-slideshow .cycle-caption {
+    margin: 1em 0;
+    text-align: center; }
