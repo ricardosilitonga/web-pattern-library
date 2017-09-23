@@ -28,4 +28,25 @@ $(function() {
 
 		$this.addClass("animated " + $this.text());
 	});
+
+	/*
+	* Tabs
+	*/
+	$(".tab-link a").on("click", function(e) {
+		e.preventDefault();
+
+		// Ambil tab yang dijadikan target
+		var targetTab = $(this).attr("href");
+		// console.log(targetTab);
+		// console.log($(targetTab));
+
+		// Tampilkan tab yang dijadikan target, sementara tab lain disembunyikan.
+		$(targetTab).show().siblings().hide();
+
+		// Tambahkan class aktif pada salah satu item dan buang class aktif pada item yang lainnya.
+		$(this).parent("li").addClass("aktif").siblings().removeClass("aktif");
+
+
+	});
+
 });
