@@ -45,8 +45,23 @@ $(function() {
 
 		// Tambahkan class aktif pada salah satu item dan buang class aktif pada item yang lainnya.
 		$(this).parent("li").addClass("aktif").siblings().removeClass("aktif");
-
-
 	});
 
+	/*
+	* Akordion
+	*/
+	$(".akordion-elemen-judul").on("click", function(e) {
+		e.preventDefault();
+
+		// Ambil akordion yang dijadikan target
+		var targetAkordion = $(this).attr("href");
+
+		// Sembunyikan semua akordion elemen
+		$(".akordion-elemen-judul").removeClass("aktif");
+		$(".akordion-elemen-konten").hide();
+
+		// Tampilkan akordion elemen konten yang dijadikan target sebelumnya
+		$(this).addClass("aktif");
+		$(targetAkordion).show();
+	});
 });

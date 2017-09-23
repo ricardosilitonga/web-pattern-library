@@ -1,0 +1,41 @@
+@import "../pengaturan/pengaturan";
+
+.akordion {
+	border: 1px solid $akordion-border-warna;
+}
+
+.akordion-elemen-judul {
+	border-bottom: 1px solid $akordion-border-warna;
+
+	background-color: lighten($akordion-nonaktif-latar-warna, 15%);
+
+	color: lighten($teks-warna, 30%);
+	text-decoration: none;
+
+	display: block;
+	padding: 1.5em;
+
+	&:hover,
+	&:active {
+		color: $akordion-aktif-teks-warna;
+		background-color: $akordion-aktif-latar-warna;
+	}
+
+	.akordion-elemen:last-child & {
+		border-bottom: 0;
+	}
+}
+
+.akordion-elemen-konten {
+	display: none;
+	padding: 1.5em;
+
+	&.aktif {
+		display: block;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+

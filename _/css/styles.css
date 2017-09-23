@@ -1079,4 +1079,35 @@ form input[type="radio"]:checked + label:before {
     display: block; }
 
 /* Akordeon */
+/* line 3, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+.akordion {
+  border: 1px solid #ccc; }
+
+/* line 7, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+.akordion-elemen-judul {
+  border-bottom: 1px solid #ccc;
+  background-color: #ebeeef;
+  color: gray;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em; }
+  /* line 18, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+  .akordion-elemen-judul:hover, .akordion-elemen-judul:active {
+    color: #fff;
+    background-color: #333; }
+  /* line 24, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+  .akordion-elemen:last-child .akordion-elemen-judul {
+    border-bottom: 0; }
+
+/* line 29, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+.akordion-elemen-konten {
+  display: none;
+  padding: 1.5em; }
+  /* line 33, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+  .akordion-elemen-konten.aktif {
+    display: block; }
+  /* line 37, ../komponen/sass/pola-lanjutan/_akordeon.scss */
+  .akordion-elemen-konten p:last-child {
+    margin-bottom: 0; }
+
 /* Carousels */
