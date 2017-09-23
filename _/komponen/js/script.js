@@ -16,4 +16,16 @@ $(function() {
 
 		$(".responsif-menu").slideToggle();
 	});
+
+
+	/*
+	* Animasi
+	*/
+
+	$("#demo-animasi").find(".demo-kolom").on("click", function(e) {
+		// Perhatikan perbedaan operator this pada seleksi elemen jquery berbeda dan javascript
+		var $this = $(this);
+
+		$this.addClass("animated " + $this.text());
+	});
 });

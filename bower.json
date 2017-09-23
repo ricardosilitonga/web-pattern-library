@@ -3,6 +3,7 @@
 	"version" : "1.0.0",
 	"dependencies" : {
 		"fontawesome" : "latest",
-		"superfish" : "latest"
+		"superfish" : "latest",
+		"animate.css" : "latest"
 	}
 }
