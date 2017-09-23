@@ -5,9 +5,12 @@
 	<title>Web Pattern Library</title>
 	<!-- Spesifik Meta untuk Mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" href="_/css/styles.css">
-	<!-- Komponen Bower -->
+	
+	<!-- Bower Components -->
 	<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="bower_components/superfish/dist/css/superfish.css" media="screen"> -->
 	<style>
 		.demo-kolom {
 			background-color: #def0fa;
@@ -551,7 +554,48 @@
 		</div><!-- .kotak -->
 	</section><!-- section -->
 
+	<!-- Navigasi -->
+	<section>
+		<div class="kotak">
+			<h2>Navigasi</h2>
 
+			<hr>
+
+			<div class="baris kotak-navigasi">
+				<div class="kolom-4">
+					<a href="" class="logo"><img src="_/images/demo/GitHub_Logo.png" alt="Demo Logo"></a>
+				</div><!-- .kolom-4 -->
+
+				<div class="kolom-8">
+					<button id="tombol-responsif-menu" class="tombol">Menu</button>
+
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="">item 1</a></li>
+							<li>
+								<a href="">item 2</a>
+								<ul>
+									<li><a href="">Subitem 1</a></li>
+									<li><a href="">Subitem 2</a></li>
+									<li><a href="">Subitem 3</a></li>
+									<li><a href="">Subitem 4</a></li>
+								</ul>
+							</li>
+							<li><a href="">item 3</a></li>
+							<li><a href="">item 4</a></li>
+						</ul>
+					</nav>
+				</div><!-- .kolom-8 -->
+			</div><!-- .baris.kotak-navigasi -->
+		</div><!-- .kotak -->
+	</section><!-- section -->
+
+
+
+	<!-- Bower Components -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/superfish/dist/js/superfish.min.js"></script>
+	<script src="bower_components/superfish/dist/js/hoverIntent.js"></script>
 
 	<script src="_/js/script.js"></script>
 	<script src="http://localhost:35729/livereload.js"></script>

@@ -872,6 +872,145 @@ form input[type="radio"]:checked + label:before {
     color: #74a730; }
 
 /* Navigasi */
+/* line 4, ../komponen/sass/pola-dasar/_navigasi.scss */
+.kotak-navigasi #tombol-responsif-menu {
+  display: none; }
+/* line 8, ../komponen/sass/pola-dasar/_navigasi.scss */
+.kotak-navigasi .sf-menu {
+  float: right; }
+/* line 12, ../komponen/sass/pola-dasar/_navigasi.scss */
+.kotak-navigasi .responsif-menu {
+  display: none;
+  list-style-type: none; }
+  /* line 15, ../komponen/sass/pola-dasar/_navigasi.scss */
+  .kotak-navigasi .responsif-menu a {
+    display: block;
+    padding: .75em 1.5em;
+    font-weight: bold;
+    text-decoration: none; }
+    /* line 22, ../komponen/sass/pola-dasar/_navigasi.scss */
+    .kotak-navigasi .responsif-menu a:active {
+      background-color: #dde2d4; }
+  /* line 29, ../komponen/sass/pola-dasar/_navigasi.scss */
+  .kotak-navigasi .responsif-menu ul {
+    list-style-type: none;
+    margin-bottom: 0; }
+@media (max-width: 768px) {
+  /* line 36, ../komponen/sass/pola-dasar/_navigasi.scss */
+  .kotak-navigasi .logo img,
+  .kotak-navigasi #tombol-responsif-menu {
+    display: block;
+    margin: 0 auto 1em auto; }
+  /* line 42, ../komponen/sass/pola-dasar/_navigasi.scss */
+  .kotak-navigasi .sf-menu {
+    display: none; } }
+
+/*** ESSENTIAL STYLES ***/
+/* line 50, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu,
+.sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+/* line 58, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu li {
+  position: relative; }
+/* line 62, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu > li {
+  float: left; }
+/* line 66, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99; }
+/* line 74, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+  display: block; }
+/* line 79, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu a {
+  display: block;
+  position: relative; }
+/* line 84, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu ul ul {
+  top: 0;
+  left: 100%; }
+
+/*** Dekorasi Menu Superfish ***/
+/* line 93, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu ul {
+  min-width: 12em;
+  /* allow long menu items to determine submenu width */ }
+/* line 97, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu a {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  color: #333;
+  padding: .75em 1.5em;
+  text-decoration: none; }
+/* line 104, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu li {
+  white-space: nowrap;
+  /* no need for Supersubs plugin */
+  -webkit-transition: background .2s;
+  transition: background .2s; }
+/* line 110, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu ul li {
+  background-color: #dde2e4; }
+/* line 114, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu ul ul li {
+  background-color: #c1cacd; }
+/* line 118, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+  background: #c1cacd;
+  /* only transition out, not in */
+  -webkit-transition: none;
+  transition: none; }
+
+/*** arrows (for all except IE7) **/
+/* line 129, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-arrows .sf-with-ul {
+  padding-right: 2.5em; }
+
+/* styling for both css and generated arrows */
+/* line 134, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-arrows .sf-with-ul:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  margin-top: -3px;
+  height: 0;
+  width: 0;
+  /* order of following 3 rules important for fallbacks to work */
+  border: 5px solid transparent;
+  border-top-color: #333; }
+
+/* line 146, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: #333; }
+
+/* styling for right-facing arrows */
+/* line 152, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-arrows ul .sf-with-ul:after {
+  margin-top: -5px;
+  margin-right: -3px;
+  border-color: transparent;
+  border-left-color: #dFeEFF;
+  /* edit this to suit design (no rgba in IE8) */
+  border-left-color: #333; }
+
+/* line 159, ../komponen/sass/pola-dasar/_navigasi.scss */
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+  border-left-color: #333; }
+
 /*
 * ----------------------------------------
 * 2.0 - Pola Lanjutan/Advanced Pattern
